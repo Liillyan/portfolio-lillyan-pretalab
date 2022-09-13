@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li{
+    list-style: none 
+    /* para remover as bolinhas da lista */
+}
+
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background-color:rgb(101, 230, 230);
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu{
+    display:flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.lista-menu li>a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height:110vh;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+
+.nome-completo{
+    font-size: 36px;
+    color:cadetblue;
+    font-weight: 700;
+    height:45px;
+}
+
+.profissao{
+    color:cornflowerblue;
+    line-height: 32px;
+    font-size: 26px;  
+}
+
+.imagem{
+    margin-top: 80%;
+    margin-bottom: 10%;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    border-radius: 200%
+}
+
+.texto-sobre{
+    font-size: 20 px;
+    line-height: 32px;
+}
+
+.section-dois{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color:cornflowerblue;
+    margin-top: 50px;
+}
+
+.lista-item{
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color:purple;
+    font-weight: 700;
+}
+
+.lista-local{
+    font-size: 18px;
+    color:blue;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 18px;
+    color:gray;
+    font-weight: 300;
+}
+
+.lista-item ul li{
+    margin-bottom:32px ;
+}
+
+.wrapper-portfolio{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rodape{
+    background-color:rgb(101, 230, 230);
+    height:30vh;
+    display:flex;
+    align-items: center;
+}
+
+.estilo-icon{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape-lista li{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    display:flex;
+    align-items:center;
+}
