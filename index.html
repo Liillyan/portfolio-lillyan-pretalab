@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfolio</title>
+    <title>Meu portfólio</title>
     <link rel="shortcut icon" href="img/lillyan.jpg">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <header class="header-menu">
         <nav>
-            <ul>
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
@@ -26,56 +28,113 @@
     </header>
 
     <main>
-        <section>
+        <section class="principal">
+            <div class="subcontainer-principal container">
             <div>
-           
+                <img src="img/lillyan.jpg" class="imagem">
             </div>
             <div>
-                <h1>Lillyan Rodrigues</h1>
-                <h2>Desenvolvedora Front-End</h2>
+                <h1 class="nome-completo">Lillyan Rodrigues</h1>
+                <h2 class="profissao">Desenvolvedora Front-End</h2>
             </div>
 
-            <div>
-                jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-                iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-                pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+            <div class="texto-sobre">
+                <h4>Olá pessoa do outro lado da tela!</h4>
+                Sou Lillyan, residente em Olinda-Pernambuco, tenho 26 anos, sou formada em Ciências contábeis pela FACHO<br>
+                e depois de atuar na área por 4 anos, busquei a transição de carreira e percebi na programação a satisfação <br>
+                que eu buscava profissionalmente, nesse processo me formei como desenvolvedora back-end pela {reprograma}<br>
+                e atualmente sou estudante de front-end na Pretalab, buscando o titulo de programadora fullstack em Javascript.<br>
+                Continuo adquirindo conhecimento afim de me inserir no mercado não so pra aprender mais, mas tambem para agregar 
+                onde estiver. 
             </div>
-        </section id="formacao">
+            </div>
+        </section>
+           <br>
+        <section id="formacao">
+            <div class="container section-dois">
             <div>
-                Formação
+                <h3 class="topico-principal">Formação</h3>
             </div>
             <div>
-                <ul>
+                <ul class="lista-item">
                     <li>
-                        <p>Ciclo Formativo Pretalab</p>
-                        <a href="http://www.pretalab.com/formacao" target="_blank">Pretalab / Olabi </a>
-                        <p>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-                            iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-                            pppppppppppppppppppppppppppppppppp
+                        <p class="lista-titulo">Ciclo Formativo Pretalab</p>
+                        <a href="http://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab  </a>
+                        <p class="lista-descricao">O ciclo formativo em tecnologia da PretaLab engloba o desenvolvimento do 
+                        conhecimento técnico, autogestão e soft skills das estudantes com o objetivo
+                        de desenvolver a técnica, mas também as habilidades que nem sempre são ensinadas
+                        em cursos tradicionais e que auxiliam na autonomia de aprender novos conteúdos
+                        e também a solucionar problemas inesperados.
                         </p>
                     </li>
-
+<br>
                     <li>
-                        <p>{reprograma}}</p>
-                        <a href="http://www.pretalab.com/formacao" target="_blank">{reprograma} </a>
-                        <p>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-                            iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-                            pppppppppppppppppppppppppppppppppp
+                        <p class="lista-titulo">Back-end Todas em Tech</p>
+                        <a href="https://reprograma.com.br/" target="_blank"  class="lista-local">{reprograma} </a>
+                        <p class="lista-descricao">O Todas em Tech é uma iniciativa da {reprograma} e do BID Lab, <br>
+                         Laboratório de Inovação do Grupo Banco Interamericano de Desenvolvimento,<br>
+                         e foi desenvolvida com o objetivo de ensinar programação e possibilitar a <br>
+                         oportunidade de um futuro melhor por meio da tecnologia para mulheres em<br>
+                          situações de vulnerabilidade social, econômica e de gênero, com foco em <br>
+                          mulheres negras, trans e/ou travestis.
                         </p>
                     </li>
                 </ul>
             </div>
-        <section>
+        </div>
             
         </section>
 
-        <section>
-            
+        <section id="meus-projetos" class="wrapper-portfolio">
+            <div class="container">
+            <div>
+                <h3 class="topico-principal">Meus Projetos</h3>
+            </div>
+            <div>
+                <ul class="lista-item">
+                    <li>
+                        <p class="lista-titulo">Calculadora</p>
+                        <p>Projeto javascript </p>
+                        <a href="#" target="_blank" class="lista-local">Link para o projeto</a>
+                        <p class="lista-descricao">Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab 
+                        com a finalidade de aprimorar os conhecimentos em ferramentas de
+                         desenvolvimento Web - HTML e CSS.
+                        </p>
+                    </li>
+                    <br>
+                    <li>
+                        <p class="lista-titulo">Projeto pessoal React</p>
+                        <p>Projeto em React </p>
+                        <a href="#" target="_blank" class="lista-local">Link para o projeto</a>
+                        <p class="lista-descricao">Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab 
+                           com a finalidade de aprimorar os conhecimentos em ferramentas de
+                           desenvolvimento Web - HTML e CSS.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
         </section>
     </main>
 
-    <footer>
-
+    <footer id="contatos" class="rodape">
+            <div class="container">
+            <ul class="rodape-lista">
+                <li>
+                  <i class="fas fa-solid fa-envelope estilo-icon"></i> 
+                  <a href="mailto:lillyanr95@gmail.com" class="link">lillyanr95@gmail.com</a>  
+                </li>
+                <li>
+                   <i class="fab fa-brands fa-linkedin estilo-icon"></i> 
+                   <a href="https://www.linkedin.com/in/lillyan-rodrigues/" target="_blank" class="link">lillyan-rodrigues</a>
+                </li>
+                <li>
+                    <i class="fab fa-brands fa-github estilo-icon"></i> 
+                    <a href="https://github.com/Liillyan" target="_blank" class="link">Liillyan</a>
+                </li>
+            </ul>
+        </div>
+    
     </footer>
 
     
